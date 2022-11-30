@@ -1,0 +1,47 @@
+
+    @media screen and (max-width:1280px) {
+        header{
+            width:100%;
+            height:80px;
+            
+        }
+        header .right nav .checkBTn{
+            display:block;
+            font-size:50px;
+            width:100%;
+            margin-left:90%;
+            
+        
+
+        }
+        header .right a{
+            display:none;
+        } 
+        header .right a{
+            position:fixed;
+            width:100%;
+            height:100vh;
+            background-color:rosybrown;
+            top:80px;
+            left:-100%;
+            text-align:center;
+        }
+        
+        header .right #check:checked~ a{
+            left:0pc;
+        }
+         
+        article{
+            display:block;
+        }
+         .second div iframe{
+            width:300px;
+            height:400px;
+            margin-left:5%;   
+        }
+        
+    }
+    footer{
+        margin-top:0%;
+        margin-bottom:50%;
+    }
